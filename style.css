@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 870px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorBackground{
+    width: 600px;
+    height: 750px;
+    background-color: #D9E4F2;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    border: 2px solid #D1D1D1;
+}
+
+.display{
+    width: 500px;
+    height: 200px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: 2px solid #D1D1D1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.buttons{
+    width: 500px;
+    height: 200px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    flex: 1;
+    border: 2px solid #D1D1D1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.numbers{
+    height: 425px;
+    width: 370px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.operators{
+    height: 425px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+button{
+    height: 140px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid #D1D1D1;
+    background-color: #A7C7E7;
+    font-size: 23px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover{
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* White text color on hover */
+  }
+
+button:active{
+    transform: scale(0.95); /* Slightly shrink the element when clicked */
+    background-color: #0056b3; /* Darker blue background when clicked */
+    color: #ffffff; /* Ensure text is white when clicked */
+  }
+
+.subButton{
+    height: 90px;
+    width: 90px;
+}
+
+.displayText{
+    font-size: 23px;
+    color: #333;
+}
+
+#yellow{
+   background-color: #FFD700;
+}
