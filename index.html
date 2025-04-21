@@ -1,82 +1,51 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Calculator</title>
-
     <link rel="stylesheet" href="style.css">
-
     <script src="script.js" defer></script>
-
 </head>
-
 <body>
-
-<div class="calculatorBackground">
     
-    <div class="display">
-        <h1 class="displayText" id="display">Awaiting User Input...</h1>
-    </div>
+    <div id="calculator">
 
-    <div class="buttons">
+        <div id="display">
 
-        <div class="numbers">
-
-            <div class="firstRow">
-            <button>9</button>
-            <button>8</button>
-            <button>7</button>
-            </div>
-
-            <div class="secondRow">
-            <button>6</button>
-            <button>5</button>
-            <button>4</button>
-            </div>
-
-            <div class="thirdRow">
-            <button>3</button>
-            <button>2</button>
-            <button>1</button>
-            </div>
+            <input type="text" id="displayInput" disabled>
 
         </div>
 
-        <div class="operators">
-            
-            <button class="subButton">/</button>
-            <button class="subButton">*</button>
-            <button class="subButton">-</button>
-            <button class="subButton">+</button>
-            <button class="subButton" id="yellow">=</button>
-            <button class="subButton">0</button>
-            <button class="subButton">C</button>
+        <div id="buttons">
 
+            <button class="btn" id="clear" type="submit">C</button>
+            <button class="btn" id="backspace">←</button>
+            <button class="btn" id="divide">/</button>
+            <button class="btn" id="multiply">*</button>
+
+            <button class="btn" id="seven">7</button>
+            <button class="btn" id="eight">8</button>
+            <button class="btn" id="nine">9</button>
+            <button class="btn" id="subtract">-</button>
+
+            <button class="btn" id="four">4</button>
+            <button class="btn" id="five">5</button>
+            <button class="btn" id="six">6</button>
+            <button class="btn" id="add">+</button>
+
+            <button class="btn" id="one">1</button>
+            <button class="btn" id="two">2</button>
+            <button class="btn" id="three">3</button>
+            <button class="btn" id="equals">=</button>
+
+            <button class="btn" id="zero">0</button>
+            <button class="btn" id="decimal">.</button>
 
         </div>
-
-
-
 
     </div>
 
 
-
-
-
-</div>
-
-
-
-
-
-    
 </body>
-
 </html>
